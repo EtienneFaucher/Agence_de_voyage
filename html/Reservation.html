@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Réservation</title> 
+        <link rel="shortcut icon" type="image/png" href="../Images/favicon.ico"/>
+    
+    </head>
+
+<body>
+
+    <ul> 
+        <li><a href="Index.html"><img src="../Images/logo.jpg" alt="IMage du Logo"></a></li>
+        <li><a href="Index.html">Accueil</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+
+<h1>Réservez votrez voyage !</h1>
+<form action="Recapitulatif.html" method="GET">
+    <div>
+        <label for="name">Nom:</label>
+        <input type="text" placeholder="Ex: Etienne" required id="name" name="user_name">
+    </div>
+    <div>
+        <label for="surname">Prénom:</label>
+        <input type="text" placeholder="Ex: Silia" required id="surname" name="user_surname">
+    </div>
+    <div>
+        <label for="mail">e-mail:</label>
+        <input type="email" placeholder="Ex: etienne@silia.fr" required id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="phone">Téléphone:</label>
+        <input type="number" placeholder="Ex: 012345678" id="phone" name="user_number">
+    </div>
+    <div>
+        <label for="departure">Départ:</label>
+        <input type="date" required id="departure" name="user_departure">
+    </div>
+    <div>
+        <label for="return">Retour:</label>
+        <input type="date" required id="return" name="user_return">
+    </div>
+    <div>
+        <label for="adults">Nombre d'adultes:</label>
+        <input type="number" placeholder="Ex: 3" required id="adults" name="user_adults">
+    </div>
+    <div>
+        <label for="kids">Nombre d'enfants (-12 ans):</label>
+        <input type="number" placeholder="Ex: 2" required id="kids" name="user_kids">
+    </div>
+    <div>
+        <label for="breakfast">Souhaitez-vous le petit déjeuner?</label>
+        <input type="radio" id="breakfast" name="user_breakfast"> 
+        <label for="breakfast">Oui</label>
+       
+        <input type="radio" name="user_breakfast">
+        <label for="breakfast">Non</label>
+    </div>
+    <div>
+        <label for="food">Avez-vous un régime particulier?</label>
+         <input type="radio" id="food" name="user_food">
+         <label for="food">Végétarien</label>
+       
+        <input type="radio" name="user_food">
+        <label for="food">Halal</label>
+        <input type="radio" name="user_food">
+        <label for="food">Allergies (précisez)</label>
+        
+        <input type="text" placeholder="Ex: Gluten" name="user_food">
+    </div>
+    <div>
+        <label for="message">Rensiegnements additionnels :</label>
+        <textarea id="message" name="user_message"></textarea>
+    </div>
+    <div><input type="reset" value="Reset"></div>
+    <div> <input type="submit" value="Submit"></div>
+</form>
+</body>
+</html>  
