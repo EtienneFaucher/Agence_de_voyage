@@ -1,10 +1,10 @@
 html{
     margin: 0;
     padding: 0;
-    background-color: #f88379;
+    
     /*background-image: url("../Images/airport.jpg");*/
     background-attachment: scroll;
-    color:white;
+    color:black;
 }
 .navigation {
     display: flex;
@@ -40,17 +40,79 @@ h1{
     }
 
 p.titres{
-    border-left: 6px solid whitesmoke;
-    background-color: grey;
-    border-radius: 8px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-right: 700px;
-    margin-left: 20px;
-    padding: 5px 15px 5px;
+  margin: 5% 50% 50%;
+  font-size: 300%;
 }
 
 img {
-    height: 50%;
-    width: 60%;
+    height: 20%;
+    width: 10%;
+}
+
+
+
+.parallax1 {
+  
+  /* The image used */
+ 
+  background-image: url("../Images/Tokyo.jpg");
+  
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../Images/Melbourne.jpg");
+
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url("../Images/Venise.jpg");
+
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.parallax4 {
+  /* The image used */
+  background-image: url("../Images/Dubai.jpeg");
+
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+a.reservation{
+  background-color: black;
+  text-decoration: double;
+  color: white;
+  margin: 5% 50% 50%;
 }
