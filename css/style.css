@@ -1,0 +1,56 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #f88379;
+    /*background-image: url("../Images/airport.jpg");*/
+    background-attachment: scroll;
+    color:white;
+}
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+
+h1{
+    
+    border-style: solid;
+    border-right-style: none
+    border-width: 6px;
+    border-color:   #CECECE;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 500px;
+    padding: 30px 50px 30px ;
+    }
+
+p.titres{
+    border-left: 6px solid whitesmoke;
+    background-color: grey;
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 700px;
+    margin-left: 20px;
+    padding: 5px 15px 5px;
+}
+
+img {
+    height: 50%;
+    width: 60%;
+}
